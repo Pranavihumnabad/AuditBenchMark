@@ -44,3 +44,5 @@ C:\Users\2085700\source\repos\AuditBenchMark\obj\Debug\netcoreapp3.1\AuditBenchM
 C:\Users\2085700\source\repos\AuditBenchMark\obj\Debug\netcoreapp3.1\AuditBenchMark.pdb
 C:\Users\2085700\source\repos\AuditBenchMark\obj\Debug\netcoreapp3.1\AuditBenchMark.genruntimeconfig.cache
 C:\Users\2085700\source\repos\AuditBenchMark\bin\Debug\netcoreapp3.1\log4net.config
+C:\Users\2085700\source\repos\AuditBenchMark\bin\Debug\netcoreapp3.1\YAMLFile.yml
+C:\Users\2085700\source\repos\AuditBenchMark\obj\Debug\netcoreapp3.1\AuditBenchMark.csproj.AssemblyReference.cache
