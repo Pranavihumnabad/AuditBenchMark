@@ -16,45 +16,7 @@
 
   <ItemGroup>
     <None Update="YAMLFile.yml">
-      <CopyToOutputDirectory>apiVersion: apps/v1
-kind: Deployment
-metadata:
-  name: auditbenchmark-deployment
-  labels:
-    app: AuditBenchMark
-spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: AuditBenchMark  
-  template:
-    metadata:
-      labels:
-        app: AuditBenchMark
-    spec:
-      containers:
-      - name: auditbenchmarkcr1
-        image: auditbenchmarkcr1.azurecr.io/auditbenchmarkrepo:latest
-        ports:
-        - containerPort: 8080
-      imagePullSecrets:
-      - name: webapisvcsecret
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: auditbenchmarksvc
-spec:
-  type: LoadBalancer
-  ports:
-  - port: 80
-  selector:
-    app: AuditBenchMark
-
-
-
-
-</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
   </ItemGroup>
 
